@@ -8,7 +8,7 @@ const Container = styled.div`
 `;
 
 function BoxContainer() {
-    const [activeIndex, setActiveIndex] = useState(null); // 상제 맨처음 초기화 0으로 설정할시에 맨처음 박스배경이 클릭전에 파란색으로 보인다.
+    const [activeIndex, setActiveIndex] = useState(null); // 초기화 0으로 설정할시에 맨처음 박스배경이 클릭전에 파란색으로 보인다.
 
     const handleClick = (index) => {
         setActiveIndex(index);
